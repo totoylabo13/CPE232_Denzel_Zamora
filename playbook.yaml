@@ -1,0 +1,8 @@
+- name: My First Playbook
+  hosts: all
+  tasks:
+  - name: Ping all hosts
+    ansible.builtin.ping:
+  - name: Print Hello World
+    ansible.builtin.debug:
+      msg: Hello Ansible 
